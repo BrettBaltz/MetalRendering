@@ -33,8 +33,6 @@ fragment simd_float4 fragmentShader(const VertexOut fragmentIn [[stage_in]],
     simd_float3 diffuseColor = simd_float3(diffuseTexture.sample(textureSampler, fragmentIn.texCoord));
     simd_float3 specularColor = simd_float3(specularTexture.sample(textureSampler, fragmentIn.texCoord));
     
-    diffuseColor = uniforms.hasDiffuseTexture ? diffuseColor : uniforms.color;
-    
     simd_float3 ambient = AMBIENT_COEFFICIENT * diffuseColor;
     simd_float3 diffuse = max(dot(eyeLight, fragmentIn.eyeNormal), 0.0)
                           * diffuseColor
