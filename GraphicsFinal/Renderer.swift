@@ -200,7 +200,7 @@ class Renderer: NSObject, MTKViewDelegate {
         // Continuously rotate the car a small amount
         vertexUniforms.modelMatrix = rotateByZ(
             mat: vertexUniforms.modelMatrix,
-            rad: toRad(0.25)
+            rad: toRad(0.5)
         )
         uniformVertexBuffer.contents().copyMemory(
             from: &vertexUniforms,
