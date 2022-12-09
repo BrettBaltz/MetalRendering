@@ -1,3 +1,2 @@
-If running the file in the base directory doesn't work, please try the one in DerivedData/GraphicsFinal/Build/Products/Debug.
-
-There may be a prompt that appears in settings that must be clicked to run it. 
+This project implements assignment 4 in Metal. 
+There may be a prompt that appears in settings that must be clicked to run the app. 
