@@ -1,3 +1,6 @@
+A link to the newer version of this project is here: https://github.com/BrettBaltz/MetalRendering2
+Canvas says the final assignment is available until Dec 9th, so I wanted to make some further improvements. If this is considered late, please disregard.
+
 This project implements assignment 4 in Metal. 
 
 ** IMPORTANT **
